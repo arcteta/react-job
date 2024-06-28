@@ -4,12 +4,13 @@ import Hero from '../components/Hero'
 import HomeCard from '../components/HomeCard'
 import JobListings from '../components/JobListings'
 import ViewAllJobs from '../components/ViewAllJobs'
+
 const HomePage = () => {
   return (
     <>
     <Hero title={'React Jobs'} subtitle={'Find Easy Jobs with React Jobs'}/>
     <HomeCard/>
-    <JobListings/>
+    <JobListings isHome={true}/>
     <ViewAllJobs/>
     </>
   )
